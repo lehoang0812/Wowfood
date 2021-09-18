@@ -1,0 +1,118 @@
+
+
+#top{
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+.letrai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    float: left;
+}
+.letrai a{
+    padding-left: 30px;
+}
+.lephai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    list-style-type: none;
+    float: left; 
+    font-size: 17pt;
+}
+.lephai li{
+    padding: 0 50px 0 0;
+    display: inline;
+    font-family: Arial;
+    float: right;
+}
+.lephai li a{
+    color: tomato;
+    text-decoration: none;
+}
+.lephai li a:hover{
+    color:turquoise;
+}
+#mid{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.tieude{
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.monan { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 33.33%; 
+    padding: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.monan h1{
+    font-family: Arial;
+    color: white;
+    padding-top: 100%;
+}
+.monan h1:hover{
+    color: turquoise;
+}
+.pz1 { 
+    background-image: url(images/pizza1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+.bg1 { 
+    background-image: url(images/burger1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+.mm1 { 
+    background-image: url(images/momo1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+#bot {
+    padding-top: 50px;
+    width: 100%;
+    float: left;
+}
+.logo_bot { 
+    float: left; 
+    width: 100%;
+    margin: 0; 
+    text-align: center;
+}
+.logo_bot img{
+    width: 5%;
+    height: auto;
+    padding-left: 25px;
+}
+.end { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 100%; 
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.end p{
+    font-family: Arial;
+}
