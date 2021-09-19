@@ -89,7 +89,7 @@
     background-position: center;
 }
 #bot {
-    padding-top: 50px;
+    padding-top: 25px;
     width: 100%;
     float: left;
 }
@@ -100,8 +100,13 @@
     text-align: center;
 }
 .logo_bot img{
-    width: 5%;
+    width: 3%;
     height: auto;
+}
+.first {
+    padding-right: 25px;
+}
+.third{
     padding-left: 25px;
 }
 .end { 
@@ -115,4 +120,8 @@
 }
 .end p{
     font-family: Arial;
+}
+.end a{
+    text-decoration: none;
+    color: palevioletred;
 }

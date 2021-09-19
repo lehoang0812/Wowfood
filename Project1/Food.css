@@ -42,6 +42,12 @@
     float: left;
     background-size: cover;
 }
+.tieude{
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
 .timkiem{
     box-sizing: border-box;
     float: left;
@@ -75,61 +81,7 @@
 .timkiem button:active{
     background-color: peru;
 }
-#mid_mid{
-    width: 100%;
-    float: left;
-    padding-top: 50px;
-}
-.tieude{
-    font-family: Arial;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.monan { 
-    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
-    float: left; 
-    width: 33.33%; 
-    padding: 25px; 
-    margin: 0; 
-    text-align: center;
-}
-.monan h1{
-    font-family: Arial;
-    color: white;
-    padding-top: 100%;
-}
-.monan h1:hover{
-    color: turquoise;
-}
-.pz1 { 
-    background-image: url(images/pizza1.jpg); 
-    border-radius: 25px; /* make rounded corners */ 
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    background-position: center;
-}
-.bg1 { 
-    background-image: url(images/burger1.jpg); 
-    border-radius: 25px; /* make rounded corners */ 
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    background-position: center;
-}
-.mm1 { 
-    background-image: url(images/momo1.jpg); 
-    border-radius: 25px; /* make rounded corners */ 
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    background-position: center;
-}
-#mid_bot {
+#mid_mid {
     margin-top: 50px;
     background-color: gainsboro;
     float: left;
