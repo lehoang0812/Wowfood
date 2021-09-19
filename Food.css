@@ -206,6 +206,9 @@
 .third{
     padding-left: 25px;
 }
+.logo_bot nav a{
+    text-decoration: none;
+}
 .end { 
     box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
     float: left; 

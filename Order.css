@@ -1,0 +1,176 @@
+#top{
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+.letrai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    float: left;
+}
+.letrai a{
+    padding-left: 30px;
+}
+.lephai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    list-style-type: none;
+    float: left; 
+    font-size: 17pt;
+}
+.lephai li{
+    padding: 0 50px 0 0;
+    display: inline;
+    font-family: Arial;
+    float: right;
+}
+.lephai li a{
+    color: tomato;
+    text-decoration: none;
+}
+.lephai li a:hover{
+    color:turquoise;
+}
+#mid{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: url(images/backgr1.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.tieude{
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form1{
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+.form1 img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.form1 h3{
+    font-family: Arial;
+    padding-left: 140px;
+}
+.form1 label{
+    font-family: Arial;
+    padding-left: 30px;
+}
+.form1 input{
+    width: 65%;
+    margin-left: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 20px;
+}
+.form2{
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: Arial;
+    margin-bottom: 100px;
+}
+.lb{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    font-family: Arial;
+}
+.form2 input{
+    float: left;
+    width: 95%;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.form2 textarea{
+    float: left;
+    width: 95%;
+    font-size: 15px;
+    font-family: Arial;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.form2 button{
+    width: fit-content;
+    height: 25px;
+    border: none;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.form2 button:active{
+    background-color: rebeccapurple;
+}
+#bot {
+    padding-top: 25px;
+    width: 100%;
+    float: left;
+}
+.logo_bot { 
+    float: left; 
+    width: 100%;
+    margin: 0; 
+    text-align: center;
+}
+.logo_bot img{
+    width: 3%;
+    height: auto;
+}
+.first {
+    padding-right: 25px;
+}
+.third{
+    padding-left: 25px;
+}
+.logo_bot nav a{
+    text-decoration: none;
+}
+.end { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 100%; 
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.end p{
+    font-family: Arial;
+}
+.end a{
+    text-decoration: none;
+    color: palevioletred;
+}
