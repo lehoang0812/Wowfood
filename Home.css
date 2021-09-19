@@ -1,0 +1,272 @@
+#top{
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+.letrai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    float: left;
+}
+.letrai a{
+    padding-left: 30px;
+}
+.lephai{
+    background-color: white;
+    width: 50%;
+    height: 75px;
+    list-style-type: none;
+    float: left; 
+    font-size: 17pt;
+}
+.lephai li{
+    padding: 0 50px 0 0;
+    display: inline;
+    font-family: Arial;
+    float: right;
+}
+.lephai li a{
+    color: tomato;
+    text-decoration: none;
+}
+.lephai li a:hover{
+    color:turquoise;
+}
+#mid_top{
+    padding: 0;
+    background-image: url(images/backgr1.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+.timkiem{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding-top: 125px;
+    padding-left: 20%;
+}
+.timkiem #Search{
+    width: 600px;
+    height: 50px;
+    background: white;
+    border: none;
+    font-family: Arial;
+    font-size: 15pt;
+    float: left;
+    color: #63717f;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.timkiem button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: darksalmon;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.timkiem button:active{
+    background-color: peru;
+}
+#mid_mid{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.tieude{
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.monan { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 33.33%; 
+    padding: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.monan h1{
+    font-family: Arial;
+    color: white;
+    padding-top: 100%;
+}
+.monan h1:hover{
+    color: turquoise;
+}
+.pz1 { 
+    background-image: url(images/pizza1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+.bg1 { 
+    background-image: url(images/burger1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+.mm1 { 
+    background-image: url(images/momo1.jpg); 
+    border-radius: 25px; /* make rounded corners */ 
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+#mid_bot {
+    margin-top: 50px;
+    background-color: gainsboro;
+    float: left;
+    height: fit-content;
+    width: 100%;
+    box-sizing: border-box;
+}
+.left1{
+    float: left;
+    width: 37.5%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.left1 img{
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+.left1 h3{
+    font-family: Arial;
+    margin-left: 140px;
+}
+.left1 p{
+    font-family: Arial;
+    margin-left: 140px;
+    color: grey;
+    margin-right: 40px;
+}
+.left1 button{
+    width: fit-content;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: palevioletred;
+    margin-left: 140px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.left1 button:active{
+    background-color: grey;
+}
+.right1{
+    float: left;
+    width: 37.5%;
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.right1 img{
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+.right1 h3{
+    font-family: Arial;
+    margin-left: 140px;
+}
+.right1 p{
+    font-family: Arial;
+    margin-left: 140px;
+    color: grey;
+    margin-right: 40px;
+}
+.right1 button{
+    width: fit-content;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: palevioletred;
+    margin-left: 140px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.right1 button:active{
+    background-color: grey;
+}
+.tieude2 p{
+    font-family: Arial;
+    text-align: center;
+    padding-bottom: 40px;
+    color: darkorange;
+}
+.tieude2 p:active{
+    color: darkred;
+}
+.tieude2 a{
+    text-decoration: none;
+}
+#bot {
+    padding-top: 25px;
+    width: 100%;
+    float: left;
+}
+.logo_bot { 
+    float: left; 
+    width: 100%;
+    margin: 0; 
+    text-align: center;
+}
+.logo_bot img{
+    width: 3%;
+    height: auto;
+}
+.first {
+    padding-right: 25px;
+}
+.third{
+    padding-left: 25px;
+}
+.end { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 100%; 
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.end p{
+    font-family: Arial;
+}
+.end a{
+    text-decoration: none;
+    color: palevioletred;
+}
